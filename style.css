@@ -19,6 +19,7 @@ button {
     font-weight: bold;
     color: rgb(0, 44, 0);
     outline: none;
+    display: inline-block;
 }
 
 button:active {
@@ -29,7 +30,6 @@ button:active {
 .container {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 12px;
-    display: inline-block;
     margin: 40px auto 0px;
     padding: 30px 0px;
     width: 666px; 
@@ -50,6 +50,7 @@ button:active {
 
     .container {
         width: 100%;
+        margin: 10px auto 0px;
     }
     #displaySong {
         font-size: 24px;
