@@ -19,7 +19,7 @@ function Jukebox() {
     this.setup = function() {
         self.audioSrc.src = "songs/" + this.songs[track].source;
         self.audioPlayer.load();
-        self.displaySong.innerHTML = "Artist: " + self.songs[track].artist + "<br>Album: " + self.songs[track].album + "<br>Title: " + self.songs[track].title;
+        self.displaySong.innerHTML = "Artist: " + self.songs[track].artist + "<br>Album: " + self.songs[track].album + "<br>Title: " + (track + 1) + '. ' + self.songs[track].title;
     }
 
     this.loadPlay = function() {
